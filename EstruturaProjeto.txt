@@ -1,0 +1,26 @@
+ANDROID STUDIO
+
+#ESTRUTURA DO PROJETO#
+Project -> Exibe todos os arquivos do projeto
+Android -> Arquivos que você pode realmente fazer alterações
+
+Manifest: Posso realizar diversas configurações globais.
+RES
+	- drawable: vídeos, músicas
+	- layout: telas da interface
+	- mipmap: ícones
+	- values: cores, strings, styles
+
+#ORIENTAÇÃO DE TELA#
+- Criar um PROJETO LAYOUT
+No path abaixo muda-se a rotação de tela
+Manifest>application>activity (screenOrientation="sensor")
+
+#CUSTOMIZAÇÃO DE TEMAS#
+No path abaixo conseguimos alterar todas cores das telas
+res>values>styles
+
+https://developer.android.com/guide/practices/screens_support.html?hl=pt-br
+
+
+

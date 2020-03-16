@@ -1,0 +1,7 @@
+XML
+Linguagem de marcação utilizada em várias áreas
+Estrutura:
+	- Abertura e fechamento de tag
+	- Aumenta a disponibilidade dos dados
+	- Simplifica a mudança de plataforma
+	- Simplifica a troca de dados
