@@ -1,0 +1,11 @@
+Constraint Layout
+
+https://developer.android.com/guide/practices/screens_support.html?hl=pt-br
+
+Unidade de medida "dp"
+Pixel de Densidade Independente
+
+Tamanho da Tela: Tamanho físico real, medido como a diagonal da tela.
+Densidade da Tela: Conhecido como DPI(Pontos por Polegadas).
+Orientação: É do ponto de vista do usuário.
+

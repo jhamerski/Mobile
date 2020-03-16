@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Contraint Layout</string>
+    <string name="botao_principal">Botão Principal</string>
+    <string name="texto_principal">Texto feito através da String</string>
 </resources>
