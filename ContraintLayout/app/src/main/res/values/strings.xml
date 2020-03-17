@@ -4,4 +4,7 @@
     <string name="texto_principal">Texto feito através da String</string>
     <string name="titulo_principal">Aprenda sobre edição de imagens</string>
     <string name="data">16/03/2020</string>
+    <string name="autor">Jonas Hamerski</string>
+    <string name="proximo">Próximo</string>
+    <string name="anterior">Anterior</string>
 </resources>
