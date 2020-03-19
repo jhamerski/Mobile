@@ -6,4 +6,9 @@
     <string name="menu_volume">Volume</string>
     <string name="menu_avaliacoes">Avaliações</string>
     <string name="menu_episodios">Episódios</string>
+    <string name="tempo_inicial">01:30</string>
+    <string name="tempo_final">42:00</string>
+    <string name="menu_voltar">Voltar</string>
+    <string name="menu_play">Play</string>
+    <string name="menu_pause">Pause</string>
 </resources>
