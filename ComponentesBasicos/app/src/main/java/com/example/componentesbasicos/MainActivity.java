@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -15,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     private TextInputEditText campoEmail;
     private  TextView textoResultado;
 
+    private CheckBox checkVerde;
+    private CheckBox checkBranco;
+    private CheckBox checkVermelha;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,14 +28,40 @@ public class MainActivity extends AppCompatActivity {
         campoNome = findViewById(R.id.editNome);
         campoEmail = findViewById(R.id.editEmail);
         textoResultado = findViewById(R.id.textResultado);
+
+        //checkBox
+        CheckBox checkVerde = findViewById(R.id.checkVerde);
+        CheckBox checkBranco = findViewById(R.id.checkBranco);
+        CheckBox checkVermelha = findViewById(R.id.checkVermelha);
+    }
+
+    public void checkBox(){
+
+        String texto = "";
+
+        if(checkVerde.isChecked()){
+            texto = "Verde selecionado -";
+        }
+        if(checkBranco.isChecked()){
+            texto = texto + "Branco selecionado -";
+        }
+        if(checkVermelha.isChecked()){
+            texto = texto + "Vermelha selecionado -";
+        }
+
+        textoResultado.setText( texto );
+
     }
 
     public void enviar(View view){
 
+        checkBox();
+
+        /*
         String nome = campoNome.getText().toString();
         String email = campoEmail.getText().toString();
         textoResultado.setText(nome + " tem e-mail: " +  email);
-
+        */
     }
 
     public void limpar(View view){
