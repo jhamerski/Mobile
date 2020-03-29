@@ -21,6 +21,6 @@ public class Conta {
     }
 
     public double recuperarSalto(){
-        return this.saldoConta;
+        return double this.saldoConta;
     }
 }
