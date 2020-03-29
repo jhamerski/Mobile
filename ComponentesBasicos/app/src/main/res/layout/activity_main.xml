@@ -31,25 +31,25 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cores" />
+        android:text="Sexo" />
 
-    <CheckBox
-        android:id="@+id/checkVerde"
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Verde" />
+        android:layout_height="wrap_content">
 
-    <CheckBox
-        android:id="@+id/checkBranco"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Branco" />
+        <RadioButton
+            android:id="@+id/radioMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
 
-    <CheckBox
-        android:id="@+id/checkVermelha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Vermelha" />
+        <RadioButton
+            android:id="@+id/radioFeminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+    </RadioGroup>
 
     <Button
         android:id="@+id/button3"
